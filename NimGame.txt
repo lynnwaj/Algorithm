@@ -1,0 +1,18 @@
+Nim Game
+return n%4！=0；
+两个人玩取石头游戏，那到最后一个石头的人赢，每人每次可以取1-3个石头，每个人都想赢，你是第一个拿石头的人
+
+如果是4个石头第一个拿的人肯定输
+如果是5个石头第一个人拿1个肯定能赢
+如果是6个石头第一个人拿2个肯定能赢
+如果是7个石头第一个人拿3个肯定能赢
+如果是8个石头不管第一个人拿几个肯定留给第二个人5-7个石头，第一个拿的人肯定输
+以此类推，4是一个循环，如果n%4=0，第一个拿的人肯定输
+
+104 Depth of Binary Tree
+if (root==null)
+    Return 0;
+else{
+    int leftdepth=maxDepth(root.left);
+    int rightdepth=maxDepth(root.right);
+    return ((leftdepth<rightdepth)?(leftdepth+1):(rightdepth+1);
