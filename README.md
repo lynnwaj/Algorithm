@@ -1,5 +1,4 @@
-# Algorithm
-//Algorithm
+# Algorithm-Binary tree
 //Binary tree:
 /**
 There are three different types of depth-first traversals, 
