@@ -1,0 +1,18 @@
+Move Zeroes
+把数组中所有零移到最后面
+class Solution {
+
+  public void moveZeroes(int[] nums) {
+     int temp=0;
+        int j=0;
+    for (int i=0;i<nums.length;i++){
+      if(nums[i]!=0){                                 //判断数是否为零如果不是零
+        temp=nums[i];                 
+        nums[i]=nums[j];
+        nums[j]=temp;
+        j++;                                          //不是零的数的计数器
+      }
+    }
+      }
+
+}
